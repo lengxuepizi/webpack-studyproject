@@ -11,6 +11,7 @@ var Hello={
            console.log("hello world");
        }
    };
+//output this object by module.exports
 module.exports=Hello;
 
 /***/ })

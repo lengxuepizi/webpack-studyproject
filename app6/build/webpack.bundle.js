@@ -10412,6 +10412,7 @@ return jQuery;
 /**
  * Created by lengxuepizi on 2017/12/16.
  */
+/* all transfer file can entry the controler by this file*/
 //require("./src/index.html");
 __webpack_require__(2);
 __webpack_require__(3);
@@ -10423,6 +10424,10 @@ __webpack_require__(3);
 /**
  * Created by lengxuepizi on 2017/12/16.
  */
+/*
+* it is the main JS file in this project
+* it can transfer all JS file by require
+* */
 var $=__webpack_require__(0);
 __webpack_require__.e/* require */(0).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(8),__webpack_require__(0)]; ((function(HEllo,$){
     HEllo.hello();
